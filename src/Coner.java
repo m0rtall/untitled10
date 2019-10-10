@@ -30,21 +30,13 @@ public class Coner {
             statement.executeUpdate("INSERT INTO books VALUES (2,'War Craft') ");
             statement.executeUpdate("INSERT INTO books VALUES (3,'War and peace') ");
             statement.executeUpdate("INSERT INTO books VALUES (4,'Rainbow') ");
-            statement.executeUpdate("CREATE database kek ");
-            statement.executeUpdate("USE kek ");
-            statement.executeUpdate("CREATE TABLE stock (id int,amount INT )");
+
+
             statement.executeUpdate("INSERT INTO stock VALUES (1,20)");
             statement.executeUpdate("INSERT INTO stock VALUES (2,26)");
             statement.executeUpdate("INSERT INTO stock VALUES (3,42)");
             statement.executeUpdate("INSERT INTO stock VALUES (4,5)");
-            statement.executeUpdate("SELECT *FROM books LEFT JOIN stock ON books.id = stock.id)");
-
-
-
-
-
-
-
+            statement.executeUpdate("SELECT * FROM books LEFT JOIN stock ON books.id = stock.id)");
 
 
         }
